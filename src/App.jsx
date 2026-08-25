@@ -261,7 +261,7 @@ function App() {
               <div className="button-row">
                 <a
                   className="secondary-button"
-                  href="/Dayanidhi_Resume.pdf"
+                  href={`${import.meta.env.BASE_URL}Dayanidhi_Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -270,8 +270,8 @@ function App() {
 
                 <a
                   className="secondary-button"
-                  href="/Dayanidhi_Resume.pdf"
-                  download="Dayanidhi_Resume.pdf"
+                  href={`${import.meta.env.BASE_URL}Dayanidhi_Resume.pdf`}
+                  download
                 >
                   Download Resume
                 </a>
