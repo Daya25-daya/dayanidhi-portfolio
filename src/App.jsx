@@ -275,7 +275,7 @@ function App() {
                 >
                   Download Resume
                 </a>
-            </div>
+              </div>
             </div>
 
               <div className="social-row" aria-label="Social links">
